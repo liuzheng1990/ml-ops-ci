@@ -1,7 +1,7 @@
 name: mlops-exaple-tensorflow-regression
 on:
-  push:
-    branches: [master]
+  pull_request:
+    branches: [main]
 jobs:
   run:
     runs-on: ubuntu-latest
